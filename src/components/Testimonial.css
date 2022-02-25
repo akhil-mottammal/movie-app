@@ -1,0 +1,70 @@
+.testimonial{
+    position: relative;
+    top: 77px;
+    color: rgb(15, 15, 15);
+    padding: 10px;
+}
+.card{
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(247, 244, 244);
+    padding: 10px;
+    outline: 1px solid;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.card img{
+    width: 71px;
+    border-radius: 50px;
+    margin: 10px;
+    z-index: 99;
+}
+.card img:hover{
+opacity: 0.5;
+}
+.card p{
+margin: 5px;
+
+}
+.card .btns{
+    margin-top: 10px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card .btn{
+    width: 10px;
+    height: 10px;
+    background: #adabab;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: #972a2a;
+}
+
+.testimonial h2{
+    color: white;
+    text-decoration: underline;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width:620px){
+    .card{
+        width: 80%;
+        height: 50vh;
+    }
+    .testimonial{
+        top: 172px;
+    }
+}
